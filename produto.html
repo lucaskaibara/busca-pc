@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Busca PC</title>
+
+    <!-- Website Icon -->
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <style type="text/css">
+      header.masthead {
+  			background: #3997d3; /* Old browsers */
+      	background: linear-gradient(#3997d3, #000); /* Gradient Background */
+  		}
+
+      #product {
+        color: #fff;    
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 36px;
+        font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+      }
+
+      #infoProduct {
+        color: #fff;    
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+      }
+
+  		hr {
+  			border-color: #fff;
+  		}
+
+  		header.masthead .header-content .header-content-inner h1 {
+  			font-size: 36px;
+  		}
+
+  		.parts-category {			
+  			padding-top: 120px;
+  			background: #3997d3; /* Old browsers */
+      	background: linear-gradient(#3997d3, #000); /* Gradient Background */
+  		}
+
+  		.footer {
+  			padding-top: 40px !important;
+  			padding-bottom: 40px !important;
+  		}
+
+      .product-description {
+        padding: 25px;
+      }
+
+      #titulo-produto {
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #fff;
+      }
+
+      #categoria-produto, #menor-preco-produto, #tipo-produto {
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #fff;
+      }
+
+      #descricao-produto {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #fff;
+      }
+
+  		.fa {
+  			font-size: 32px;
+  			color: #fff;
+  		}
+
+      .reset-padding {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      
+      .ajuda-mobile {
+        display: none !important;
+      }   
+      
+      .ajuda-mobile-text {
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+
+  		@media (max-width: 767px){
+        .ajuda-mobile {
+          display: inline !important;
+        }
+  		}
+
+	    @media (max-width: 767px) { 
+	    	header.masthead .header-content .header-content-inner h1 {
+          font-size: 28px;
+        }
+	    }
+
+  		@media (max-width: 991px) {
+  			.current-page {
+  				color: #3997d3 !important;
+  			}
+  		}
+
+  		@media (min-width: 992px) {
+  			#mainNav {
+  				color: #333;
+  			  background-color: #fff;
+  			}
+
+  			#mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav> li.nav-item > a.nav-link:focus {
+  			    color: #000;
+  			}
+
+  			#mainNav .navbar-nav> li.nav-item > a.nav-link:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+  			    color: #3997d3 !important;
+  			}
+
+  			.current-page {
+  				border: 3px #3997d3 solid;
+  			}
+
+  			.no-current-page {
+  				border: 3px transparent solid;
+  			}
+
+        .img-fluid {
+          width: 47.5%;
+        }
+  		}
+    </style>
+
+  </head>
+
+  <body>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="index.html"><img width="225" src="img/logo.png" /></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger no-current-page" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger no-current-page" href="sobre.html">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger no-current-page" href="categorias.html">Categorias de Peças</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger no-current-page" href="pesquisa_detalhada.html">Pesquisa por Filtros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="parts-category">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-12 text-center">
+
+            <h1 id="product">Página do Produto</h1>
+            <br />
+
+          </div>
+
+          <div class="col-lg-6 bg-white text-center">
+
+            <img src="" class="img-fluid" id="imagem-produto">
+
+          </div>
+
+          <div class="col-lg-6 product-description">
+
+            <h1 id="titulo-produto"></h1>
+            <br />
+            <h3 id="categoria-produto"></h3>
+            <br />
+            <h3 id="menor-preco-produto"></h3>
+            <br />
+            <h3 id="tipo-produto"></h3>
+
+          </div>
+
+          <div class="col-lg-12 text-center">
+
+            <br /><br />
+            <h1 id="infoProduct">Informações Sobre o Produto</h1>
+            <br />
+            <p id="descricao-produto"></p>
+
+          </div>
+
+          <div class="col-lg-12 reset-padding text-center">
+
+            <div class="col-lg-12 reset-padding ajuda-mobile">
+
+              <br /><br />
+              <span class="text-white text-center ajuda-mobile-text">Deslize para o lado para poder visualizar todas as lojas onde o produto está disponível.</span>
+              <br /><br />
+              <span class="fa fa-arrow-right sr-icons"></span>
+              <span class="fa fa-arrow-right sr-icons"></span>
+              <span class="fa fa-arrow-right sr-icons"></span>
+              <br />
+
+            </div>
+
+            <br />
+            <h1 id="infoProduct">Produto nas Lojas da Região</h1>
+            <br />           
+            
+            <p id="lojas-produto"></p>
+            
+          </div>
+
+          <div class="col-lg-12 text-center">
+
+            <br /><br />
+            <h1 id="infoProduct">Faça algum comentário sobre o produto</h1>
+            <br />           
+            
+          </div>
+
+          <div class="col-lg-12 text-center bg-white">  
+
+            <br />
+            <div class="comentarios-facebook"></div>
+            <br />
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading"><img width="225" src="img/logo.png" /></h2>
+            <hr class="primary">
+            <p>Copyright &copy; 2017 | Todos os direitos reservados</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Script para o Conteúdo da Página -->
+    <script type="text/javascript">
+      const imagem = document.getElementById("imagem-produto");
+      const titulo = document.getElementById("titulo-produto");
+      const categoria = document.getElementById("categoria-produto");
+      const menorPreco = document.getElementById("menor-preco-produto");
+      const tipo = document.getElementById("tipo-produto");
+      const descricao = document.getElementById("descricao-produto");
+      const lojas = document.getElementById("lojas-produto");
+
+      const url = document.URL;
+      const breakURLString = url.split('/');
+      const actualPage = breakURLString[breakURLString.length - 1];
+      const breakActualPageURL = actualPage.split('?');
+      const productIDParameter = breakActualPageURL[breakActualPageURL.length - 1];
+      const breakProductIDParameter = productIDParameter.split('=');
+      const realProductIDParameter = parseInt(breakProductIDParameter[breakProductIDParameter.length - 1], 10);
+
+      if (realProductIDParameter === 1) {
+        imagem.src = "img/portfolio/thumbnails/1.png";
+        titulo.textContent = "Intel Core i3 4170";
+        categoria.textContent = "Categoria: Hardware";
+        menorPreco.textContent = "Menor Preço: R$ 574,20";
+        tipo.textContent = "Tipo de Produto: Novo";
+        descricao.innerHTML = "ESPECIFICAÇÃO TÉCNICA <br /><br />Número do processador: i3-4170 <br />Número de núcleos: 2 <br />Nº de threads: 4 <br />Velocidade do clock: 3.7 GHz <br />Cache inteligente <br /> Intel: 3 MB <br />DMI2: 5 GT/s <br />Conjunto de instruções: 64-bit <br />Extensões do conjunto de instruções: SSE4.1/4.2 AVX2.0 <br />Litografia: 22 nm <br />TDP máximo: 54 W <br />Especificação de solução térmica: PCG 2013C";
+        lojas.innerHTML = '<div class="table-responsive"><table class="table" border="0" id="lista"><tr class="bg-white"><th class="text-center">Loja</th><th class="text-center">Preço</th><th class="text-center">Cidade</th><th class="text-center">Ação</th></tr><tr class="bg-white"><td>Beta Informática</td><td>R$ 599,00</td><td>Londrina</td><td><a target="blank" class="btn btn-default" href="https://www.betainformatica.com.br/informatica/pecas-e-componentes/processador/processador-intel-core-i3-4a-geracao-4160-velocidade-3-6-ghz-cache-3mb-pci-express-hd-graphics">Ver Mais</a></td></tr><tr class="bg-white"><td>Umpoukodetudo.com.br</td><td>R$ 574,20</td><td>Londrina</td><td><a target="blank" class="btn btn-default" href="http://www.umpoukodetudo.com.br/processador-intel-core-i3-4170-3-7ghz-lga-1150-4-gerac-o.html">Ver Mais</a></td></tr></table></div>';
+      }
+
+      if (realProductIDParameter === 2) {
+        imagem.src = "img/portfolio/thumbnails/2.png";
+        titulo.textContent = "Intel Core i5 6660";
+        categoria.textContent = "Categoria: Hardware";
+        menorPreco.textContent = "Menor Preço: R$ 1.199,00";
+        tipo.textContent = "Tipo de Produto: Novo";
+        descricao.innerHTML = "Número do processador: Intel® Core™ i5-6600<br /> Família: Skylake - 6ª Geração<br /> Cache: 6MB<br /> Tipo de barramento: DMI3<br /> Barramento do sistema: 8 GT/s<br /> Conjunto de instruções: 64-bit<br /> Litografia: 14 nm<br /> Escalabilidade: Apenas 1S<br /> Especificação de solução térmica: PCG 2015C (65W)";
+        lojas.innerHTML = '<div class="table-responsive"><table class="table" border="0" id="lista"><tr class="bg-white"><th class="text-center">Loja</th><th class="text-center">Preço</th><th class="text-center">Cidade</th><th class="text-center">Ação</th></tr><tr class="bg-white"><td>Beta Informática</td><td>R$ 1.199,00</td><td>Londrina</td><td><a target="blank" class="btn btn-default" href="https://www.betainformatica.com.br/informatica/pecas-e-componentes/processador/processador-intel-core-i5-6600-lga-1151-3-3ghz-6mb-de-cache-hd-graphics-530-skylake-6a-geracao">Ver Mais</a></td></tr></table></div>';
+      }
+      
+      if (realProductIDParameter === 3) {
+        imagem.src = "img/portfolio/thumbnails/3.png";
+        titulo.textContent = "Mouse Gamer Razer Mass Effect 3 Imperator";
+        categoria.textContent = "Categoria: Periféricos";
+        menorPreco.textContent = "Menor Preço: R$ 275,00";
+        tipo.textContent = "Tipo de Produto: Novo";
+        descricao.innerHTML = "Experimente um novo patamar de precisão em games com o Sistema Sensor Duplo 4G de 6400 dpi que conta com um sensor óptico e um sensor a laser para uma calibragem impecável do mouse em qualquer superfície com o Mouse Gamer Razer Mass Effect 3.  Não importa o seu estilo de jogo, o Razer Imperator não somente atende com extrema precisão aos seus movimentos, mas também conta com distância de detecção ajustável pelo usuário entre o mouse e o mousepad. Agora você está no comando mais do que nunca.";
+        lojas.innerHTML = '<div class="table-responsive"><table class="table" border="0" id="lista"><tr class="bg-white"><th class="text-center">Loja</th><th class="text-center">Preço</th><th class="text-center">Cidade</th><th class="text-center">Ação</th></tr><tr class="bg-white"><td>Arroba Computadores</td><td>R$ 275,00</td><td>Londrina</td><td><a target="blank" class="btn btn-default" href="http://arrobacomputadores.com/produto/mouse-gamer-razer-mass-effect-3/">Ver Mais</a></td></tr></table></div>';
+      }
+      
+      if (realProductIDParameter === 4) {
+        imagem.src = "img/portfolio/thumbnails/4.png";
+        titulo.textContent = "Computador Intel i5 4460 3.2GHZ, 8GB, HD 1TB";
+        categoria.textContent = "Categoria: Computadores / Notebooks";
+        menorPreco.textContent = "Menor Preço: R$ 1.629,53";
+        tipo.textContent = "Tipo de Produto: Novo";
+        descricao.innerHTML = "A Londritech Informática é especializada em máquinas Avançadas e Pcs Gamers. Somos uma loja Certificada Nvidia e parceiro Gold Intel. A montagem das máquinas é feita por técnicos especializados, com muita organização em seu interior, proporcionando um visual Clean e melhor ventilação. Testes de qualidade e desempenho são realizados para garantir que você fique tranquilo e satisfeito. Afinal essa é a nossa META !";
+        lojas.innerHTML = '<div class="table-responsive"><table class="table" border="0" id="lista"><tr class="bg-white"><th class="text-center">Loja</th><th class="text-center">Preço</th><th class="text-center">Cidade</th><th class="text-center">Ação</th></tr><tr class="bg-white"><td>Londritech</td><td>R$ 1.629,53</td><td>Londrina</td><td><a target="blank" class="btn btn-default" href="https://www.londritech.com.br/computador-i5-4460-memoria-ddr3-8gb-kingston-hd-1tb-toshiba-24477.html">Ver Mais</a></td></tr></table></div>';
+      }
+      
+      if (realProductIDParameter === 5) {
+        imagem.src = "img/portfolio/thumbnails/5.png";
+        titulo.textContent = "Apple iPhone 7 - 128GB";
+        categoria.textContent = "Categoria: Tablets / Smartphones";
+        menorPreco.textContent = "Menor Preço: R$ 3.699,00";
+        tipo.textContent = "Tipo de Produto: Novo";
+        descricao.innerHTML = "O iPhone 7 melhora consideravelmente as partes mais importantes da sua experiência com o iPhone. Ele traz um conjunto de câmeras completamente novo, o melhor desempenho e a maior duração de bateria até hoje, sistema de alto-falantes estéreo e tela com mais brilho e cores. Além de ser resistente à água e respingos1. É poderoso em cada detalhe. E poderoso como um todo.";
+        lojas.innerHTML = '<div class="table-responsive"><table class="table" border="0" id="lista"><tr class="bg-white"><th class="text-center">Loja</th><th class="text-center">Preço</th><th class="text-center">Cidade</th><th class="text-center">Ação</th></tr><tr class="bg-white"><td>Beta Informática</td><td>R$ 3.699,00</td><td>Londrina</td><td><a target="blank" class="btn btn-default" href="https://www.betainformatica.com.br/celulares-e-telefonia/ios/apple-iphone-7-128gb-3d-touch-camera-isight-de-12mp-gravacao-de-video-4k-tela-retina-hd-touch-id-chip-a10-rose-gold">Ver Mais</a></td></tr></table></div>';
+      }
+      
+      if (realProductIDParameter === 6) {
+        imagem.src = "img/portfolio/thumbnails/6.png";
+        titulo.textContent = "Motorola Moto G5 Plus - 32GB";
+        categoria.textContent = "Categoria: Tablets / Smartphones";
+        menorPreco.textContent = "Menor Preço: R$ 1.299,00";
+        tipo.textContent = "Tipo de Produto: Novo";
+        descricao.innerHTML = "Selfies de Qualidade<br /> A câmera frontal possui lente grande angular de 85 graus e abertura f/2.2; <br />A câmera principal possui Tecnologia Dual Autofocus Pixel e abertura f/1.7. <br /> Excelente para tirar fotos de alta qualidade e com foco no que você quer.<br /> Longa duração da Bateria. Sua bateria de 3000 mAh foi desenvolvida para durar o dia todo e ir além.<br /> O carregador TurboPower™ incluído fornece até 6 horas de duração da bateria com apenas 15 minutos de carregamento.<br /> Desfrute de reproduções dos seus jogos e vídeos favoritos sem travamento, navegando na internet ou ouça música com velocidade extremamente rápida.<br /> O Moto G 5 Plus oferece um processador Octa-core de 2 GHz extremamente rápido, recursos gráficos eficientes e suporte a 4G para que você execute aplicativos perfeitamente, sem perder velocidade.";
+        lojas.innerHTML = '<div class="table-responsive"><table class="table" border="0" id="lista"><tr class="bg-white"><th class="text-center">Loja</th><th class="text-center">Preço</th><th class="text-center">Cidade</th><th class="text-center">Ação</th></tr><tr class="bg-white"><td>Beta Informática</td><td>R$ 1.299,00</td><td>Londrina</td><td><a target="blank" class="btn btn-default" href="https://www.betainformatica.com.br/celulares-e-telefonia/motorola-moto-g5-plus-xt1680-32gb-13-mp-1-chip-android-7-0-nougat-wifi">Ver Mais</a></td></tr></table></div>';
+      }
+      
+      if (realProductIDParameter === 7) {
+        imagem.src = "img/portfolio/thumbnails/7.png";
+        titulo.textContent = "Modem TD-W8901N TP-Link";
+        categoria.textContent = "Categoria: Redes / Wireless";
+        menorPreco.textContent = "Menor Preço: R$ 183,80";
+        tipo.textContent = "Tipo de Produto: Novo";
+        descricao.innerHTML = "Modem ADSL2+ Roteador TD-W891N 150Mbps TP-Link. Características: Marca: TP-Link. Modelo: TD-W8901N. Especificações: Fonte de alimentação: externa 9VDC/0.6A. Padrões IEEE: IEEE 802.3, 802.3u. Dimensões Aproximadas: 182 x 128 x 35mm. Tipo de Antena: Omni directional, Fixa, SMA Reversa. Ganho de Antena: 5dBi. Padrões Wireless: IEEE 802.11g, 802.11b, com alguns recursos N. Frequência: 2.400-2.4835GHz. EIRP: <20dBm(EIRP). Segurança Wireless: Suporta WEP de 64/128 bits, WPA-PSK/WPA2-PSK, Filtragem Wireless MAC. Qualidade do Serviço: Notação QoS baseada em IPP/ToS, DSCP e 802.1p. Encaminhamento de Porta: Servidor virtual, DMZ, ACL (Lista de Controle de Acesso). Passagem VPN: PPTP, L2TP, IPSec Pass-through. Certificação: CE, FCC, RoHS. Recursos: Modem DSL de alta velocidade, roteador NAT e um ponto de acesso wireless em um só dispositivo fornecendo uma solução de rede em um só produto. Velocidade wireless de até 150Mbps tornando ideal para o consumo da largura de banda ou aplicações sensíveis à interrupção, como jogos online e streaming de vídeo. Fácil Assistente de Configuração proporciona instalação rápida e sem complicações. Firewall SPI e NAT protegem dispositivos do usuário final de potenciais ataques provenientes da Internet. Criptografias WPA-PSK/WPA2-PSK fornece às suas redes uma defesa ativa contra ameaças de segurança. Botão de Liga/Desliga a Wi-Fi. QoS permite streaming de IPTV suave e jogo online sem defasagem. Port VLAN vincula potas LAN específicas com PVCs para diferenciar serviços. Wireless bridge WDS fornece perfeita ponte para expandir a rede wireless. O Annex M suplica a taxa de transmissão upstream. Auto-reconectar mantém os usuários on-line por tempo indeterminado. Compatível com produtos 802.11b / g. Requisitos de Sistema: Microsoft® Windows® 98SE, NT, 2000, XP, Vista™ ou Windows 7, MAC® OS, NetWare®, UNIX® ou Linux. Conteúdo da Embalagem: TD-W8901N. Splitter Externo. Cabo de Telefone RJ-11. Cabo Ethernet RJ-45. Guia de instalação rápida. CD de Recursos. Adaptador de Energia.";
+        lojas.innerHTML = '<div class="table-responsive"><table class="table" border="0" id="lista"><tr class="bg-white"><th class="text-center">Loja</th><th class="text-center">Preço</th><th class="text-center">Cidade</th><th class="text-center">Ação</th></tr><tr class="bg-white"><td>Computec Londrina</td><td>R$ 183,80</td><td>Londrina</td><td><a target="blank" class="btn btn-default" href="https://www.computeclondrina.com.br/rede-e-conexao-sem-fio/modem/modem-adsl2-roteador-td-w891n-150mbps-tp-link/">Ver Mais</a></td></tr></table></div>';
+      }
+      
+      if (realProductIDParameter === 8) {
+        imagem.src = "img/portfolio/thumbnails/8.png";
+        titulo.textContent = "Impressora HP Jato Multifuncional Advantage 4536";
+        categoria.textContent = "Categoria: Impressão / Imagem";
+        menorPreco.textContent = "Menor Preço: R$ 699,90";
+        tipo.textContent = "Tipo de Produto: Novo";
+        descricao.innerHTML = "Impressora HP Jato Multifuncional Advantage 4536. A Multifuncional HP DeskJet Ink Advantage 4536 e os cartuchos de tinta de baixo preço da HP, são a combinação perfeita para a sua tecnologia. Realize rapidamente as suas tarefas, com o jeito mais fácil de imprimir de seu smartphone ou tablet, e configure rapidamente para imprimir sem fio de qualquer lugar que estiver.";
+        lojas.innerHTML = '<div class="table-responsive"><table class="table" border="0" id="lista"><tr class="bg-white"><th class="text-center">Loja</th><th class="text-center">Preço</th><th class="text-center">Cidade</th><th class="text-center">Ação</th></tr><tr class="bg-white"><td>Computec Londrina</td><td>R$ 699,90</td><td>Londrina</td><td><a target="blank" class="btn btn-default" href="https://www.computeclondrina.com.br/impressoras/impressora-hp-jato-multifuncional-advantage-4536/">Ver Mais</a></td></tr></table></div>';
+      }
+    </script>
+
+    <!-- Bootstrap core JavaScript -->    
+    <script type="text/javascript">
+      const page = document.URL;
+      const breakPage = page.split('/');
+      const arquivoURL = breakPage[breakPage.length - 1];
+      const divComentariosFB = document.querySelector('.comentarios-facebook');
+
+      divComentariosFB.innerHTML ='<div class="fb-comments" data-href="' + arquivoURL + '" data-width="100%" data-numposts="2"></div>';
+    </script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
+
+</html>
